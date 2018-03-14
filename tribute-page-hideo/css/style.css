@@ -1,0 +1,30 @@
+h1, h2, h3 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bold{
+  font-weight:bold;
+}
+.top-buffer{
+  margin-top: 10px;
+}
+
+img.center-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center-well{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blockquote {
+    border-left: none;
+}
+
+.blockquote-footer {
+    font-size: 14px;
+}
