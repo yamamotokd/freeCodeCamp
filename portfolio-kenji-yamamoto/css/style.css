@@ -1,10 +1,39 @@
-/* .navbar-header {
-  float: left;
-  padding: 15px;
-  text-align: center;
-  width:60%;
+ hr {
+  display:block;
+  width: 50%;
+  margin-top:-18px;
+  z-index:-1;
+  height:4px;
+  background-color:#FAFEFF;
 }
 
-.navbar-brand{
-  float:none;
-} */
+.fa-code {
+  font-size: 30px;
+  color:#FAFEFF;
+  margin-left: 30%;
+  margin-right: auto;
+  background-color:#C8CCCC;
+}
+
+.jumbotron{
+  background-color:#C8CCCC;
+} 
+
+.fa-ship{
+  color: #577B7F;
+  font-size: 30px;
+  vertical-align:middle;
+}
+
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+.profile-picture {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  margin-top:10px;
+  margin-bottom:10px;
+}
