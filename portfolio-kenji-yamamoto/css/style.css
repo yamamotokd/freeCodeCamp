@@ -1,28 +1,19 @@
- hr {
-  display:block;
-  width: 50%;
-  margin-top:-18px;
-  z-index:-1;
-  height:4px;
-  background-color:#FAFEFF;
-}
-
 .fa-code {
-  font-size: 30px;
-  color:#FAFEFF;
+  font-size: 40px;
+  color: #FAFEFF;
   margin-left: 30%;
   margin-right: auto;
-  background-color:#C8CCCC;
+  background-color: transparent;
 }
 
-.jumbotron{
-  background-color:#C8CCCC;
-} 
+.jumbotron {
+  background-color: #7D7F7F;
+}
 
-.fa-ship{
+.fa-ship {
   color: #577B7F;
   font-size: 30px;
-  vertical-align:middle;
+  vertical-align: middle;
 }
 
 .navbar-brand {
@@ -31,9 +22,86 @@
 }
 
 .profile-picture {
-  width: 256px;
-  height: 256px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
-  margin-top:10px;
-  margin-bottom:10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.display-1 {
+  position: relative;
+}
+
+.lead {
+  position: relative;
+}
+
+.hr-theme-slash-2 {
+  display: flex;
+}
+.hr-theme-slash-2 .hr-line {
+  width: 100%;
+  position: relative;
+  margin: 15px;
+  border-bottom: 5px solid #FAFEFF;
+}
+.hr-theme-slash-2 .hr-icon {
+  position: relative;
+  left: -10px;
+  color: #FAFEFF;
+}
+
+#portfolio {
+  background-color: #C8CCCC;
+  margin-top: -60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 100;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
