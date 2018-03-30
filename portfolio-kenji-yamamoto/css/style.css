@@ -8,6 +8,7 @@
 
 .jumbotron {
   background-color: #7D7F7F;
+  z-index: 1;
 }
 
 .fa-ship {
@@ -22,11 +23,12 @@
 }
 
 .profile-picture {
-  width: 128px;
-  height: 128px;
+  max-width: 100%;
+  min-width: 128px;
+  height: auto;
   border-radius: 50%;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: auto;
   margin-right: auto;
   margin-left: auto;
 }
@@ -39,6 +41,31 @@
   position: relative;
 }
 
+#contactme {
+  background-color: #7D7F7F;
+  padding-bottom: 20px;
+}
+
+#portfolio {
+  background-color: #C8CCCC;
+  margin-top: -60px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 10;
+}
+
+#contactMeMessage {
+  font-size: 24px;
+}
+
+#footerText {
+  color: #FAFEFF;
+}
+
+footer {
+  background-color: #222;
+}
+
+/*=================================================*/
 .hr-theme-slash-2 {
   display: flex;
 }
@@ -52,13 +79,6 @@
   position: relative;
   left: -10px;
   color: #FAFEFF;
-}
-
-#portfolio {
-  background-color: #C8CCCC;
-  margin-top: -60px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  z-index: 100;
 }
 
 div.gallery {
@@ -104,4 +124,28 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+.fa-social {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa-social:hover {
+  opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: #2b2b2b;
+  color: white;
 }
